@@ -19,5 +19,5 @@
         msg: "Hello There"
 
     - name: New Task
-      ansible.builtin.debug1:
+      ansible.builtin.debug:
         msg: "New Message"
