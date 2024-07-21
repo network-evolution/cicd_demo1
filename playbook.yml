@@ -15,5 +15,5 @@
           - "{{ ansible_facts }}"
 
     - name: Print hello
-      ansible.builtin.debug:
+      ansible.builtin.debug1:
         msg: "Hello there"
